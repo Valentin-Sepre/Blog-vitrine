@@ -45,7 +45,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   placeholder="Votre Message"
-                  rows="5"
+                  rows={5}
                   className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 ></textarea>
