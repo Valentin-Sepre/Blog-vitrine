@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaHome, FaUserCircle, FaEnvelope, FaInfoCircle, FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaEnvelope, FaInfoCircle, FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
