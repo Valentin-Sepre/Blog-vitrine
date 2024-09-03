@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaHome, FaEnvelope, FaInfoCircle, FaBars, FaTimes } from 'react-icons/fa';
+// import { FaHome, FaEnvelope, FaInfoCircle, FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,22 +19,22 @@ const Navbar: React.FC = () => {
         {/* Menu Hamburger Icon */}
         <div className="block lg:hidden">
           <button onClick={toggleMenu} className="text-black">
-            {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {/* {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />} */}
           </button>
         </div>
 
         {/* Navigation Links for Large Screens */}
         <div className="hidden lg:flex lg:items-center lg:space-x-8 text-black">
           <Link href="/" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaHome />
+            {/* <FaHome /> */}
             <span className="ml-2 text-lg font-medium">Accueil</span>
           </Link>
           <Link href="/a-propos" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaInfoCircle />
+            {/* <FaInfoCircle /> */}
             <span className="ml-2 text-lg font-medium">À propos</span>
           </Link>
           <Link href="/contact" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaEnvelope />
+            {/* <FaEnvelope /> */}
             <span className="ml-2 text-lg font-medium">Contact</span>
           </Link>
 
@@ -48,19 +48,19 @@ const Navbar: React.FC = () => {
         style={{ boxShadow: '0 2px 10px rgba(0, 0, 0, 0.3)' }}
       >
         <button onClick={toggleMenu} className="text-black mb-6">
-          <FaTimes size={24} />
+          {/* <FaTimes size={24} /> */}
         </button>
         <div className="flex flex-col space-y-4">
           <Link href="/" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaHome />
+            {/* <FaHome /> */}
             <span className="ml-2 text-lg font-medium">Accueil</span>
           </Link>
           <Link href="/a-propos" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaInfoCircle />
+            {/* <FaInfoCircle /> */}
             <span className="ml-2 text-lg font-medium">À propos</span>
           </Link>
           <Link href="/contact" className="flex items-center hover:text-gray-600 transition duration-300">
-            <FaEnvelope />
+            {/* <FaEnvelope /> */}
             <span className="ml-2 text-lg font-medium">Contact</span>
           </Link>
         </div>
