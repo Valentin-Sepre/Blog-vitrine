@@ -19,11 +19,6 @@ const defaultImages: Image[] = [
     description: 'Homme très riche',
     src: 'public/Batman.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
-  {
-    title: 'Flash',
-    description: 'Court très vite',
-    src: 'public/Flash.jpg', // Remplacez par un chemin valide ou une URL d'image
-  },
 ];
 
 type SimpleCarouselProps = {
