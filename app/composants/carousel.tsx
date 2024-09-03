@@ -10,19 +10,19 @@ type Image = {
 // Définissez une valeur par défaut pour les images
 const defaultImages: Image[] = [
   {
-    title: 'Venom',
-    description: 'Gentil méchant',
-    src: '/Venom.jpg', // Remplacez par un chemin valide ou une URL d'image
+    title: 'Naruto',
+    description: 'Ninja',
+    src: '/Naruto.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
   {
-    title: 'Galactus',
-    description: 'Dévoreur de monde',
-    src: '/862.jpg', // Remplacez par un chemin valide ou une URL d'image
+    title: 'Batman',
+    description: 'Homme très riche',
+    src: '/Batman.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
   {
-    title: 'Doctor Doom',
-    description: 'Swag',
-    src: '/Doctor Doom.jpg', // Remplacez par un chemin valide ou une URL d'image
+    title: 'Flash',
+    description: 'Court très vite',
+    src: '/Flash.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
 ];
 

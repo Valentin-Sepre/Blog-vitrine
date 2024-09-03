@@ -11,7 +11,7 @@ export default function Home() {
         <section className="flex-grow flex items-center justify-center text-center p-8">
           <div className="bg-concrete-light mb-8 shadow-lg p-6 rounded-lg max-w-4xl w-full mx-4">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">Bienvenue sur Blog</h1>
-            <p className="text-lg text-gray-600">Découvrez un univers swag</p>
+            <p className="text-lg text-gray-600">Découvrez.....</p>
           </div>
         </section>
         <Carousel />

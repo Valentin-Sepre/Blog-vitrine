@@ -41,32 +41,32 @@ const AboutPage: React.FC = () => {
                             {/* Exemple d'un membre de l'équipe */}
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/Venom.jpg" // Remplacez par une image réelle
-                                    alt="Nom du Membre"
+                                    src="/Naruto.jpg" // Remplacez par une image réelle
+                                    alt="Naruto"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
-                                <h3 className="text-lg font-semibold text-gray-800">Venom</h3>
-                                <p className="text-gray-600">Manger des gens</p>
+                                <h3 className="text-lg font-semibold text-gray-800">Naruto</h3>
+                                <p className="text-gray-600">Devenir Hokage</p>
                             </div>
 
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/862.jpg" // Remplacez par une image réelle
-                                    alt="Nom du Membre"
+                                    src="/Batman.jpg" // Remplacez par une image réelle
+                                    alt="Batman"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
-                                <h3 className="text-lg font-semibold text-gray-800">Galactus</h3>
-                                <p className="text-gray-600">Manger des planètes</p>
+                                <h3 className="text-lg font-semibold text-gray-800">Batman</h3>
+                                <p className="text-gray-600">Aimerait des pouvoirs </p>
                             </div>
 
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/Doctor Doom.jpg" // Remplacez par une image réelle
+                                    src="/Flash.jpg" // Remplacez par une image réelle
                                     alt="Nom du Membre"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
-                                <h3 className="text-lg font-semibold text-gray-800">Nom du Membre</h3>
-                                <p className="text-gray-600">Description du rôle</p>
+                                <h3 className="text-lg font-semibold text-gray-800">Flash</h3>
+                                <p className="text-gray-600">Meilleur perso</p>
                             </div>
                         </div>
                     </section>
