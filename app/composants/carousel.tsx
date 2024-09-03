@@ -12,17 +12,17 @@ const defaultImages: Image[] = [
   {
     title: 'Naruto',
     description: 'Ninja',
-    src: '/Naruto.jpg', // Remplacez par un chemin valide ou une URL d'image
+    src: 'public/Naruto.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
   {
     title: 'Batman',
     description: 'Homme très riche',
-    src: '/Batman.jpg', // Remplacez par un chemin valide ou une URL d'image
+    src: 'public/Batman.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
   {
     title: 'Flash',
     description: 'Court très vite',
-    src: '/Flash.jpg', // Remplacez par un chemin valide ou une URL d'image
+    src: 'public/Flash.jpg', // Remplacez par un chemin valide ou une URL d'image
   },
 ];
 

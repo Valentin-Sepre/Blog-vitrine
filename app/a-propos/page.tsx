@@ -41,7 +41,7 @@ const AboutPage: React.FC = () => {
                             {/* Exemple d'un membre de l'équipe */}
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/Naruto.jpg" // Remplacez par une image réelle
+                                    src="public/Naruto.jpg" // Remplacez par une image réelle
                                     alt="Naruto"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
 
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/Batman.jpg" // Remplacez par une image réelle
+                                    src="public/Batman.jpg" // Remplacez par une image réelle
                                     alt="Batman"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
@@ -61,7 +61,7 @@ const AboutPage: React.FC = () => {
 
                             <div className="flex flex-col items-center w-full md:w-1/3 lg:w-1/4">
                                 <img
-                                    src="/Flash.jpg" // Remplacez par une image réelle
+                                    src="public/Flash.jpg" // Remplacez par une image réelle
                                     alt="Nom du Membre"
                                     className="w-32 h-32 rounded-full object-cover mb-4"
                                 />
